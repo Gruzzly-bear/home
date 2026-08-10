@@ -1,0 +1,52 @@
+/* style.css */
+body {
+    background-color: #FAF7F2; /* Warm, bright cream */
+    color: #3E362E; /* Dark soil brown for soft contrast */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Forest Green Navigation */
+.navbar-custom {
+    background-color: #557A46; 
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #FDFBF7 !important;
+    font-weight: 500;
+}
+.navbar-custom .nav-link:hover {
+    color: #E8D3A2 !important; /* Soft wheat hover color */
+}
+
+/* Text and Accents */
+.text-earthy {
+    color: #557A46;
+}
+.border-earthy {
+    border-bottom: 2px solid #8C9F75;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-top: 5px solid #8C9F75; /* Sage green top border */
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.08);
+}
+
+/* Terracotta Buttons */
+.btn-earthy {
+    background-color: #D2765A;
+    color: #FFF;
+    border: none;
+    font-weight: bold;
+}
+.btn-earthy:hover {
+    background-color: #B85F45;
+    color: #FFF;
+}

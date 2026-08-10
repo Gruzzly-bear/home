@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Backyard Thunderdome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">🌿 Bowen Homestead</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="stockpile.html">Stockpile & Meals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="garden.html">Thunderdome & Garden</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4 mb-5">
+        <div class="text-center mb-4">
+            <h1 class="display-5 text-earthy fw-bold">The Backyard Thunderdome</h1>
+            <p class="lead text-muted">Native Planting Guides & The Official "Kill It With Fire" Watchlist</p>
+        </div>
+
+        <!-- COMPACT INVASIVE SPECIES WATCHLIST (ACCORDION) -->
+        <div class="card p-3 mb-4 shadow-sm border-start border-4 border-danger">
+            <h3 class="text-danger border-bottom pb-2 mb-3">⚠️ The Hit List (Eradicate on Sight)</h3>
+            <p class="text-muted small mb-3">Mother Nature makes mistakes, and suburban garden centers sell them for $19.99. If you see these freeloaders, rip them out, salt the earth, or poison the stumps. No mercy.</p>
+            
+            <div class="accordion accordion-flush border rounded" id="invasiveAccordion">
+                
+                <!-- Deceptive Ornamentals -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-bold text-danger bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            🚫 Idiotic Landscaping Mistakes
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#invasiveAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-group list-group-flush small">
+                                <li class="list-group-item"><strong>Bradford Pear:</strong> Smells like rotting fish and hot garbage. Branches shatter if a butterfly sneezes on them. Replace with a Dogwood before it crushes the fence.</li>
+                                <li class="list-group-item"><strong>Japanese Barberry:</strong> The "Tick-Breeder 9000." Creates a humid dome of misery where deer ticks spawn. Dig it out.</li>
+                                <li class="list-group-item"><strong>Norway Maple:</strong> Casts a shadow so dark it literally suffocates everything beneath it. The ultimate shade troll.</li>
+                                <li class="list-group-item"><strong>English Ivy:</strong> Looks "quaint" until it pulls a 50-foot oak tree down onto the roof. Cut it at the base and let it rot.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trees & Shrubs -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold text-danger bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            🌳 Trees & Shrubs Sent From Hell
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#invasiveAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-group list-group-flush small">
+                                <li class="list-group-item"><strong>Tree of Heaven (Ailanthus altissima):</strong> The mothership for Spotted Lanternflies. Smells like rancid peanut butter. If you chop it, it spawns 50 angry clones. You MUST use herbicide on the freshly cut stump.</li>
+                                <li class="list-group-item"><strong>Autumn Olive:</strong> A shrub that alters soil nitrogen to favor itself and forms impenetrable walls of spite.</li>
+                                <li class="list-group-item"><strong>Multiflora Rose:</strong> An aggressive thorny shrub that overtakes pastures. Arching stems root wherever they touch the ground. Total nightmare fuel.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vines & Weeds -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold text-danger bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            🌿 Apocalyptic Vines & Toxic Weeds
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#invasiveAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-group list-group-flush small">
+                                <li class="list-group-item"><strong>Japanese Knotweed:</strong> Will literally eat your house's foundation. Roots break through concrete. Nuke it from orbit.</li>
+                                <li class="list-group-item"><strong>Oriental Bittersweet:</strong> Wraps around tree trunks like a boa constrictor and strangles them to death.</li>
+                                <li class="list-group-item"><strong>Garlic Mustard:</strong> Engages in chemical warfare by poisoning the soil so native plants can't grow. Smells like garlic when crushed.</li>
+                                <li class="list-group-item"><strong>Bindweed (Wild Morning Glory):</strong> The zombie vine. Roots go 20 feet deep. Pulling it only makes it angry.</li>
+                                <li class="list-group-item"><strong>Purple Loosestrife:</strong> Pretty purple flowers that will absolutely annihilate local wetlands.</li>
+                                <li class="list-group-item text-danger"><strong>Poison Hemlock:</strong> Looks like giant Queen Anne's Lace with purple splotches on the stem. Drink this and die like Socrates. Seriously, wear gloves and DO NOT BURN IT.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Insects -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold text-danger bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                            🪲 The Bug Hit List
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#invasiveAccordion">
+                        <div class="accordion-body p-0">
+                            <ul class="list-group list-group-flush small">
+                                <li class="list-group-item"><strong>Spotted Lanternfly:</strong> Red, polka-dotted, and drinks tree sap until the tree dies. Stomp on sight. Scrape their mud-like egg masses off trees in winter.</li>
+                                <li class="list-group-item"><strong>Emerald Ash Borer:</strong> A shiny green beetle that has murdered basically every Ash tree in PA. If we have Ash trees left, they need treatment ASAP.</li>
+                                <li class="list-group-item"><strong>Brown Marmorated Stink Bug:</strong> Smells like cilantro gone wrong. Wants to winter inside our house. Vacuum them up and flush them.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FOOD FOREST QUICK GUIDE (COMPACT TABLE) -->
+        <div class="card p-3 mb-5 shadow-sm border-start border-4 border-success">
+            <h3 class="text-earthy border-bottom pb-2 mb-3">🌳 The "We Won't Starve" Native Roster</h3>
+            <p class="text-muted small mb-3">The stuff we actually *want* growing in the yard. Plant these in the fall so we can eventually abandon the grocery store entirely.</p>
+            
+            <div class="table-responsive">
+                <table class="table table-sm table-hover align-middle border">
+                    <thead class="table-success">
+                        <tr>
+                            <th>Layer</th>
+                            <th>Plant</th>
+                            <th>The Payoff</th>
+                        </tr>
+                    </thead>
+                    <tbody class="small">
+                        <tr>
+                            <td><strong>Canopy (Big Trees)</strong></td>
+                            <td>American Persimmon</td>
+                            <td>Sweet fruit. Do not eat until wrinkly unless you hate your mouth.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Canopy (Big Trees)</strong></td>
+                            <td>Shagbark Hickory</td>
+                            <td>Delicious nuts. Bark looks cool and houses bats (which eat the bugs we hate).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Understory (Small Trees)</strong></td>
+                            <td>Pawpaw</td>
+                            <td>Banana-mango custard fruit. Plant at least 2 or they refuse to fruit.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Understory (Small Trees)</strong></td>
+                            <td>Red Mulberry</td>
+                            <td>Massive berry yields. Get the native RED one, not the trash Asian White one.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Shrubs</strong></td>
+                            <td>Elderberry & Hazelnut</td>
+                            <td>Hazelnuts for snacking, Elderberries for medicinal syrups so we don't get sick.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Groundcover & Roots</strong></td>
+                            <td>Sunchokes (Jerusalem Artichoke)</td>
+                            <td>Underground potato-things. Very aggressive, will take over its corner.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Perennials</strong></td>
+                            <td>Asparagus & Rhubarb</td>
+                            <td>Plant once, eat for 20 years. The ultimate lazy-man's crop.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
